@@ -1,0 +1,45 @@
+# Результаты сборки .NET
+[Bb]in/
+[Oo]bj/
+artifacts/
+
+# Локальные файлы среды разработки
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Результаты тестов и журналы
+TestResults/
+*.trx
+*.log
+
+# Локальные настройки и секреты
+.env
+.env.*
+!.env.example
+!.env.sample
+appsettings.Local.json
+config.local.json
+connection.local.config
+secrets.json
+*.pfx
+*.p12
+
+# Физические файлы и резервные копии SQL Server
+*.mdf
+*.ndf
+*.ldf
+*.bak
+*.trn
+
+# Временные файлы ОС
+Thumbs.db
+Desktop.ini
+.DS_Store
+~$*
+
+# Если вы выбрали другое имя файла с локальной конфигурацией,
+# добавьте его точное имя выше. Файл-пример без секретов храните в Git.
